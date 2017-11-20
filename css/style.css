@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: "Lato";
+}
+header {
+	background-color: #02b3e4;
+	width: 100%;
+	padding: 15px 10px !important;
+	color: white;
+	font-size: 24px;
+	height: 10%;
+}
+
+header#wiki {
+    font-weight: 700;
+}
+
+.content {
+	height: 90%;
+}
+
+input:focus {
+      outline: none;
+}
+
+.remove_padding {
+	padding: 0 !important;
+}
+
+.row {
+	height: 100%;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+
+input {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+
+input:focus+ul {
+	opacity: 1;
+}
+
+ul {
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	background-color: white;
+	height: 90%;
+}
+
+ul li {
+    font-weight: 700;
+}
+
+li {
+	padding: 10px;
+	border: 1px solid #02b3e4;
+	cursor: pointer;
+}
+
+li:hover {
+	background-color: #02b3e4;
+
+}
+
+.icon {
+	width: 50px;
+	height: auto;
+}
+
+.diffColor {
+	background-color: blue;
+}
+
+@media (max-width: 768px) {
+	.map-container {
+		height: 100%;
+	}
+	.list-container {
+		height: 30%;
+	}
+}
